@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="bt-br">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/layout-list.css' rel='stylesheet'>
+    <link rel="stylesheet" href="C:\Users\Aluno\Desktop\info09\Html G1esport\index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Brasileirao</title>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <div class="containerInicial">
+        <button class="globocom">globo.com</button>
+        <button class="g1">g1</button>
+        <button class="ge">ge</button>
+        <button class="gshow">gshow</button>
+        <button class="globoplay">globoplay</button>
+        <div class="containerInicial2">
+            <button class="ASSINE_JA">ASSINE JA</button>
+            <button class="ENTRAR">ENTRAR ></button>
+
+        </div>
+    
+    </div>
+
+    <div id="navfundo" class="containeroverlay" onclick="closeNav()"></div>
+
+    </div>
+
+
+    <div id="myNav" class="overlay">
+
+        <div class="overlay-content">
+            <a href="#">brasileirão</a>
+            <a href="#">agenda</a>
+            <a href="#">times</a>
+            <a href="#">tabelas</a>
+            <a href="#">videos</a>
+            <a href="#">cartola</a>
+            <a href="#">cartola experss</a>
+            <a href="#">baixe o app ge</a>
+            <a href="#">futebol internacional</a>
+            <a href="#">seleção brasileira</a> 
+            <a href="#">volei</a>
+            <a href="#">nba</a>
+            <a href="#">surfe</a>
+            <a href="#">olimpiadas</a>
+            <a href="#">combate</a> 
+            <a href="#">premiere</a>
+            <a href="#">fórmula 1</a>
+            <a href="#">esports</a>
+            <a href="#">eu atleta</a>
+            <a href="#">podcasts</a>
+            <a href="#">na tv</a>
+            <a href="#">principios editoriasis</a>
+            <a href="#">outros esportes</a>
+            
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <button class="BotaoMenu" onclick="openNav()">
+            <a class="linhaMain">
+                <svg xmlns="http://www.w3.org/200/svg" class="menu-burger" width="25" height="25" fill="currentColor"
+                    class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </a>
+        </button>
+        <label class="Menu">MENU</label>
+        <img class="imagemge" src="GE.jpg">
+        <img class="escudo" src="escudinho.png">
+        <label class="BrasileiraoSerieA">BRASILEIRÃO&nbsp;SÉRIE A</label>
+        <div class="buscar_campo">
+            <input placeholder=" BUSCAR" class="buscar camposBusca"></input>
+        </div>
+    </div>
+
+    <div class="Container2">
+        <a class="Classificaçao" href="https://ge.globo.com/futebol/brasileirao-serie-a/">Classificação</a>
+        <a class="Simulador" href="https://interativos.ge.globo.com/futebol/brasileirao-serie-a/especial/simulador-do-brasileirao-2023">Simulador</a>
+        <a class="Videos" href="https://interativos.ge.globo.com/futebol/brasileirao-serie-a/especial/simulador-do-brasileirao-2023">Vídeos</a>
+        <a class="Estatisticas" href="https://interativos.ge.globo.com/estatisticas/">Estatísticas</a>
+        <a class="VAR" href="https://interativos.ge.globo.com/futebol/brasileirao-serie-a/especial/simulador-do-brasileirao-2023">VAR</a>
+        
+    </div>
+    <div class="containerPropaganda">
+        <img class="propaganda" src="Propaganda.png">
+    </div>
+    <div class="ContainerDasTabelas">
+        
+        <div class="containerTabela">
+            <table class="Tabela1">
+            
+                <tr>
+                    <td class="TabelaTitulosClassificaçao" colspan="2">CLASSIFICAÇÃO</td>
+                    <td class="TabelaTitulos"></td>
+                    <td class="TabelaTitulos">P</td>
+                    <td class="TabelaTitulos">J</td>
+                    <td class="TabelaTitulos">V</td>
+                    <td class="TabelaTitulos">E</td>
+                    <td class="TabelaTitulos">D</td>
+                    <td class="TabelaTitulos">GP</td>
+                    <td class="TabelaTitulos">GC</td>
+                    <td class="TabelaTitulos">SG</td>
+                    <td class="TabelaTitulos">%</td>
+                    <td class="TabelaTitulos">ÚLT. JOGOS</td>
+                </tr>
+                <tr>
+                    <td class="NumeroAzul">1</td>
+                    <td class="TabelaNomeTime">Botafogo</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconCinza"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">12</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">4</td>
+                    <td class="ClassificaçãoPontos">0</td>
+                    <td class="ClassificaçãoPontosCinza">0</td>
+                    <td class="ClassificaçãoPontos">9</td>
+                    <td class="ClassificaçãoPontosCinza">4</td>
+                    <td class="ClassificaçãoPontos">5</td>
+                    <td class="ClassificaçãoPontosCinza">100</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVerde"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroAzul">2</th>
+                    <td class="TabelaNomeTime">Palmeiras</th>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconCinza"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza" >10</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">3</td>
+                    <td class="ClassificaçãoPontos">1</td>
+                    <td class="ClassificaçãoPontosCinza">0</td>
+                    <td class="ClassificaçãoPontos">11</td>
+                    <td class="ClassificaçãoPontosCinza">4</td>
+                    <td class="ClassificaçãoPontos">7</td>
+                    <td class="ClassificaçãoPontosCinza">83</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVerde"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVerde"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroAzul">3</td>
+                    <td class="TabelaNomeTime">Cruzeiro</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconCinza"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">9</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">3</td>
+                    <td class="ClassificaçãoPontos">0</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">7</td>
+                    <td class="ClassificaçãoPontosCinza">3</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">75</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVerde"></span>
+                    </td>
+                    <td></td>
+                
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroAzulClaro">5</td>
+                    <td class="TabelaNomeTime">São Paulo</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconVermelho"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">7</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">2</td>
+                    <td class="ClassificaçãoPontos">1</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">7</td>
+                    <td class="ClassificaçãoPontosCinza">3</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza"s>58</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVermelho"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroAzulClaro">6</td>
+                    <td class="TabelaNomeTime">Fluminense</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">7</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">2</td>
+                    <td class="ClassificaçãoPontos">1</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">8</td>
+                    <td class="ClassificaçãoPontosCinza">5</td>
+                    <td class="ClassificaçãoPontos">3</td>
+                    <td class="ClassificaçãoPontosCinza">58</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosCinza"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroVerde">7</td>
+                    <td class="TabelaNomeTime">Grêmio</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">7</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">2</td>
+                    <td class="ClassificaçãoPontos">1</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">6</td>
+                    <td class="ClassificaçãoPontosCinza">5</td>
+                    <td class="ClassificaçãoPontos">1</td>
+                    <td class="ClassificaçãoPontosCinza">58</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosCinza"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroVerde">8</td>
+                    <td class="TabelaNomeTime">Internacional</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconVermelho"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">7</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">2</td>
+                    <td class="ClassificaçãoPontos">1</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">4</td>
+                    <td class="ClassificaçãoPontos">0</td>
+                    <td class="ClassificaçãoPontosCinza">58</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVerde"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroVerde">9</td>
+                    <td class="TabelaNomeTime">Bahia</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">6</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">2</td>
+                    <td class="ClassificaçãoPontos">0</td>
+                    <td class="ClassificaçãoPontosCinza">2</td>
+                    <td class="ClassificaçãoPontos">6</td>
+                    <td class="ClassificaçãoPontosCinza">5</td>
+                    <td class="ClassificaçãoPontos">1</td>
+                    <td class="ClassificaçãoPontosCinza">50</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVermelho"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroVerde">10</td>
+                    <td class="TabelaNomeTime">Athletico-PR</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconVermelho"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">6</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">2</td>
+                    <td class="ClassificaçãoPontos">0</td>
+                    <td class="ClassificaçãoPontosCinza">2</td>
+                    <td class="ClassificaçãoPontos">5</td>
+                    <td class="ClassificaçãoPontosCinza">5</td>
+                    <td class="ClassificaçãoPontos">0</td>
+                    <td class="ClassificaçãoPontosCinza">50</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroVerde">11</td>
+                    <td class="TabelaNomeTime">Vasco</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconVermelho"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">5</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">2</td>
+                    <td class="ClassificaçãoPontosCinza"> 1</td>
+                    <td class="ClassificaçãoPontos"> 5</td>
+                    <td class="ClassificaçãoPontosCinza">5</td>
+                    <td class="ClassificaçãoPontos">0</td>
+                    <td class="ClassificaçãoPontosCinza">41</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVerde"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroVerde">12</td>
+                    <td class="TabelaNomeTime">Bragantino</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconVermelho"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">5</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">2</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">6</td>
+                    <td class="ClassificaçãoPontosCinza">8</td>
+                    <td class="ClassificaçãoPontos">-2</td>
+                    <td class="ClassificaçãoPontosCinza">41</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVerde"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroCinza">13</td>
+                    <td class="TabelaNomeTime">Cuiabá</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">4</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">1</td>
+                    <td class="ClassificaçãoPontosCinza">2</td>
+                    <td class="ClassificaçãoPontos">5</td>
+                    <td class="ClassificaçãoPontosCinza">6</td>
+                    <td class="ClassificaçãoPontos">-1</td>
+                    <td class="ClassificaçãoPontosCinza">33</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVerde"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosCinza"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroCinza">14</td>
+                    <td class="TabelaNomeTime">Santos</td>
+                        <td class="iconsTabela">
+                            <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconVermelho"></samp>
+                        </td>
+                        <td class="ClassificaçãoPontosCinza">4</td>
+                        <td class="ClassificaçãoPontos">4</td>
+                        <td class="ClassificaçãoPontosCinza">1</td>
+                        <td class="ClassificaçãoPontos">1</td>
+                        <td class="ClassificaçãoPontosCinza">2</td>
+                        <td class="ClassificaçãoPontos">4</td>
+                        <td class="ClassificaçãoPontosCinza">5</td>
+                        <td class="ClassificaçãoPontos">-1</td>
+                        <td class="ClassificaçãoPontosCinza">33</td>
+                        <td class="ClassificaçãoPontosUltimoJgos">
+                            <span class="PontosVerde"></span>
+                            <span class="PontosCinza"></span>
+                            <span class="PontosVermelho"></span>
+                            <span class="PontosCinza"></span>
+                            <span class="PontosCinza"></span>
+                        </td>
+                        <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroCinza">15</td>
+                    <td class="TabelaNomeTime">Corinthians</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">4</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">1</td>
+                    <td class="ClassificaçãoPontosCinza">2</td>
+                    <td class="ClassificaçãoPontos">3</td>
+                    <td class="ClassificaçãoPontosCinza">5</td>
+                    <td class="ClassificaçãoPontos">-2</td>
+                    <td class="ClassificaçãoPontosCinza">33</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVermelho"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroCinza">16</td>
+                    <td class="TabelaNomeTime">Atlético-MG</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconVermelho"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">4</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">1</td>
+                    <td class="ClassificaçãoPontosCinza">2</td>
+                    <td class="ClassificaçãoPontos">3</td>
+                    <td class="ClassificaçãoPontosCinza">5</td>
+                    <td class="ClassificaçãoPontos">-2</td>
+                    <td class="ClassificaçãoPontosCinza">33</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVermelho"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroVermelho">17</td>
+                    <td class="TabelaNomeTime">Flamengo</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconVermelho"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">3</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">0</td>
+                    <td class="ClassificaçãoPontosCinza">3</td>
+                    <td class="ClassificaçãoPontos">7</td>
+                    <td class="ClassificaçãoPontosCinza">7</td>
+                    <td class="ClassificaçãoPontos">0</td>
+                    <td class="ClassificaçãoPontosCinza">25</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVerde"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroVermelho">18</td>
+                    <td class="TabelaNomeTime">Goiás</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconVermelho"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">3</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">0</td>
+                    <td class="ClassificaçãoPontosCinza">3</td>
+                    <td class="ClassificaçãoPontos">2</td>
+                    <td class="ClassificaçãoPontosCinza">10</td>
+                    <td class="ClassificaçãoPontos">-8</td>
+                    <td class="ClassificaçãoPontosCinza">8</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosCinza"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosCinza"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroVermelho">19</td>
+                    <td class="TabelaNomeTime">Coritiba</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconCinza"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">1</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">0</td>
+                    <td class="ClassificaçãoPontos">1</td>
+                    <td class="ClassificaçãoPontosCinza">3</td>
+                    <td class="ClassificaçãoPontos">2</td>
+                    <td class="ClassificaçãoPontosCinza">10</td>
+                    <td class="ClassificaçãoPontos">-8</td>
+                    <td class="ClassificaçãoPontosCinza">8</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosCinza"></span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="NumeroVermelho">20</td>
+                    <td class="TabelaNomeTime">América-MG</td>
+                    <td class="iconsTabela">
+                        <samp class="spanNumero">0</samp>
+                        <samp class="iconVerde iconCinza"></samp>
+                    </td>
+                    <td class="ClassificaçãoPontosCinza">0</td>
+                    <td class="ClassificaçãoPontos">4</td>
+                    <td class="ClassificaçãoPontosCinza">0</td>
+                    <td class="ClassificaçãoPontos">0</td>
+                    <td class="ClassificaçãoPontosCinza">4</td>
+                    <td class="ClassificaçãoPontos">3</td>
+                    <td class="ClassificaçãoPontosCinza">11</td>
+                    <td class="ClassificaçãoPontos">-8</td>
+                    <td class="ClassificaçãoPontosCinza">0</td>
+                    <td class="ClassificaçãoPontosUltimoJgos">
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosVermelho"></span>
+                        <span class="PontosCinza"></span>
+                    </td>
+                    <td></td>
+                </tr>            
+            </table>
+            </div>
+            <div class="ContainerSegundaTabela">
+                <section>
+                <table class="Tabela2">
+                <header>
+                    <h2 class="JogosTabela">JOGOS</h2>
+                </header>
+                <nav class="NavTabelaJogos">
+                    <span><svg stroke="#06AA48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"><path d="M40.4 121.3c-.8.8-1.8 1.2-2.9 1.2s-2.1-.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8 0l53.9 53.9c1.6 1.6 1.6 4.2 0 5.8l-53.9 53.9z"></path></svg></span>
+                    <span class="RodadaTabela">8ª RODADA</span>
+                    <span>1</span>
+                </section>
+                </nav>
+                
+                <ul class="ListaJogos">
+                    <li>1</li>
+                    <li>1</li>
+                    <li>1</li>
+                    <li>1</li>
+                    <li>1</li>
+                    <li>1</li>
+                    <li>1</li>
+                </ul>
+
+                
+            </div>    
+
+
+           
+    </div>    
+    </div>
+
+</body>
+
+</html>
+
+<!--<img class="riscos" src="riscos.png">-->
+<!--               <nav class="ListaJogos">
+                <span class="SetaPraEsquerda">
+                <span class="NumeroDaRodada">7ª Rodada</span>
+                <span class="SetaPraDireita">
+               </nav>
+               <ul>
+                <li class="">1</li>
+                <li class="">2</li>
+                <li class="">3</li>
+                <li class="">4</li>
+                <li class="">5</li>
+                <li class="">6</li>
+                <li class="">7</li>
+                <li class="">8</li>
+                <li class="">9</li>
+                <li class="">10</li>
+               </ul>
+-->
